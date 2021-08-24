@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital@1&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 10vh;
+  font-family: 'Andada Pro', serif;
+  font-size: 20px;
+  background: url(596672.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+#scrollpath {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+#progressbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+#progressbar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  filter: blur(10px);
+}
+
+#progressbar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  filter: blur(30px);
+}
+
+
+/* Scroll Bar End */
+
+
+/* Navbar */
+
+.site-header {
+  width: 100vw;
+  height: auto;
+  position: fixed !important;
+  z-index: 9999999 !important;
+  padding: 0 !important;
+  top: 0;
+}
+
+
+/* .center ul{
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+} */
+
+.site-header .navbar {
+  width: inherit;
+  margin: 0 auto;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  padding: 5px !important;
+  font-family: monotype corsiva;
+  font-size: 25px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.6))) !important;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%) !important;
+}
+
+.nav-logo {
+  padding: auto 0;
+  margin: auto 0;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 7px 30px 0 30px;
+}
+
+
+/* .navbar li a:hover{
+  color: #fff;
+} */
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.navbar-brand {
+  font-family: 'Style Script', cursive;
+  font-size: 34px;
+  text-decoration: none;
+}
+
+
+/* Navbar End */
+
+.title {
+  position: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+.title h1 {
+  font-family: 'Style Script', cursive;
+  font-size: 3em;
+}
+
+.title h1:hover {
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 40px #000;
+  color: #fff;
+}
+
+.music {
+  position: absolute;
+  float: right;
+  right: 10px;
+}
+
+.content {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.form-table {
+  margin-left: 20px;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  padding: 0 0 0 10px;
+}
+
+
+/* Icon Sosmed */
+
+.contact {
+  padding: 10px;
+  margin: 5px 30px;
+  /* position: fixed; */
+  /* bottom  : 0; */
+}
+
+
+/* .sosmed-icon{
+  padding-top: 320px;
+  margin-left: 30px;
+} */
+
+.icon {
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+
+.icon .icon-logo-envelope,
+.icon .icon-logo {
+  position: relative;
+  list-style: none;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.icon .icon-logo-envelope a,
+.icon .icon-logo a {
+  text-decoration: none;
+}
+
+.icon .icon-logo-envelope a .far,
+.icon .icon-logo .fab {
+  font-size: 2em;
+  color: #222;
+}
+
+.icon .icon-logo::before {
+  font-family: "Font Awesome 5 Brands";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 2em;
+  height: 0;
+  overflow: hidden;
+  transition: 1s ease-in-out;
+  line-height: 1;
+}
+
+.icon .icon-logo-envelope::before {
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 2em;
+  height: 0;
+  overflow: hidden;
+  transition: 1s ease-in-out;
+  line-height: 1;
+}
+
+.icon .icon-logo:nth-child(1)::before {
+  content: '\f167';
+  color: #ff0000;
+  /* border-bottom: 4px solid #ff0000; */
+}
+
+.icon .icon-logo:nth-child(2)::before {
+  content: '\f39e';
+  color: #285DED;
+  /* border-bottom: 4px solid #285DED; */
+}
+
+.icon .icon-logo:nth-child(3)::before {
+  content: '\f16d';
+  color: #eb1add;
+  /* border-bottom: 4px solid #eb1add; */
+}
+
+.icon .icon-logo-envelope:nth-child(4)::before {
+  content: '\f0e0';
+  color: #ED2828;
+  /* border-bottom: 4px solid #ED2828; */
+}
+
+.icon .icon-logo:nth-child(5)::before {
+  content: '\f1be';
+  color: #fd7200;
+  /* border-bottom: 4px solid #fd7200; */
+}
+
+.icon .icon-logo:nth-child(6)::before {
+  content: '\f09b';
+  color: #4d4d4d;
+  /* border-bottom: 4px solid #fd7200; */
+}
+
+.icon .icon-logo:hover::before {
+  height: 100%;
+}
+
+.icon .icon-logo-envelope:hover::before {
+  height: 100%;
+}
+
+
+/* Icon Sosmed End */
+
+.copyright {
+  position: fixed;
+  padding: 10px;
+  /* padding-bottom: 0; */
+  bottom: 0;
+  width: 100%;
+  /* text-align    : center; */
+  font-weight: bold;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0.6)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 80%);
+}
+
+.copyright p {
+  margin-left: 50px;
+}
