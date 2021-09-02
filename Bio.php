@@ -53,7 +53,7 @@
     </section>
 
     <section class="music">
-        <audio src="../New folder/FutBass.mp3" controls autoplay></audio>
+        <audio src="FutBass.mp3" controls autoplay></audio>
     </section>
 
     <section class="content">
