@@ -16,10 +16,6 @@
 </head>
 
 <body>
-    <!-- Scroll Bar -->
-    <div id="progressbar"></div>
-    <div id="scrollpath"></div>
-
     <!-- Navbar -->
     <header class="site-header">
         <nav class="navbar">
@@ -110,7 +106,7 @@
 
                 <li class="icon-logo">
                     <a href="https://web.facebook.com/BryanKazuro04">
-                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        <i class="fab fa-facebook-f"></i>
                     </a>
                 </li>
 

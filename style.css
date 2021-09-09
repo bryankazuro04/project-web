@@ -46,6 +46,11 @@ body {
   width: 0;
 }
 
+
+/* ::-webkit-scrollbar-thumb {
+  background: linear-gradient(to top, #008aff, #00ffe7);
+} */
+
 #scrollpath {
   position: fixed;
   top: 0;
@@ -61,6 +66,7 @@ body {
   right: 0;
   width: 10px;
   background: linear-gradient(to top, #008aff, #00ffe7);
+  border-radius: 6px;
   animation: animate 5s linear infinite;
 }
 
