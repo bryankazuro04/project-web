@@ -49,7 +49,7 @@
     </section>
 
     <section class="music">
-        <audio src="FutBass.mp3" controls autoplay></audio>
+        <audio src="FutBass.mp3" controls></audio>
     </section>
 
     <section class="content">
@@ -131,6 +131,12 @@
                 <li class="icon-logo">
                     <a href="https://github.com/bryankazuro04/">
                         <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                </li>
+
+                <li class="icon-logo">
+                    <a href="https://wa.me/+6282119760841/?text=Hi">
+                        <i class="fab fa-whatsapp"></i>
                     </a>
                 </li>
             </ul>

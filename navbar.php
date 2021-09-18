@@ -3,19 +3,19 @@
         <div class="container-fluid">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="https://bryankazuro.epizy.com/">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#myself">Features</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="navbar-brand">Bryan Kazuro</a>
+                    <a class="navbar-brand" href="https://bryankazuro.epizy.com/">Bryan Kazuro</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#lorem">Bio</a>
                 </li>
 
                 <li class="nav-item">

@@ -243,6 +243,12 @@ td {
   /* border-bottom: 4px solid #fd7200; */
 }
 
+.icon .icon-logo:nth-child(7)::before {
+  content: '\f232';
+  color: #25d366;
+  /* border-bottom: 4px solid #fd7200; */
+}
+
 .icon .icon-logo:hover::before {
   height: 100%;
 }
