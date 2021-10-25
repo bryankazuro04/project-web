@@ -24,7 +24,7 @@
                 <i class="fab fa-github" aria-hidden="true"></i>
             </a>
 
-            <a href="https://wa.me/+6282119760841/?text=Hi" class="icon-logo">
+            <a href="https://wa.me/+6282119760841/?text=Hi,%20Nice%20to%20Meet%20You" class="icon-logo">
                 <i class="fab fa-whatsapp"></i>
             </a>
         </div>
