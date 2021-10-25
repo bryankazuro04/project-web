@@ -10,38 +10,14 @@
     <!-- Font Awesome Icon -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="bio_style.css">
+    <link rel="stylesheet" href="css/bio_style.css">
     <link rel="icon" type="image/png" href="favicon_created_by_logaster.ico">
     <title>About Me</title>
 </head>
 
 <body>
     <!-- Navbar -->
-    <header class="site-header">
-        <nav class="navbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="https://bryankazuro.epizy.com/">Home</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="navbar-brand">Bryan Kazuro</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="Bio.php">About Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <?php include ('partials/bio_navbar.php') ?>
     <!-- Navbar End -->
 
     <section class="title">
@@ -49,7 +25,7 @@
     </section>
 
     <section class="music">
-        <audio src="FutBass.mp3" controls></audio>
+        <audio src="media/FutBass.mp3" controls></audio>
     </section>
 
     <section class="content">
@@ -94,54 +70,8 @@
         </div>
     </section>
 
-    <section class="contact">
-        <div class="sosmed-icon">
-            <ul class="icon">
-                <li class="icon-logo">
-                    <a href="https://www.youtube.com/channel/UCcyE2WfpW11eXOP9kN0k6iA">
-                        <i class="fab fa-youtube" aria-hidden="true"></i>
-                    </a>
-                </li>
-
-
-                <li class="icon-logo">
-                    <a href="https://web.facebook.com/BryanKazuro04">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                </li>
-
-                <li class="icon-logo">
-                    <a href="https://www.instagram.com/bryan.kazuro/">
-                        <i class="fab fa-instagram" aria-hidden="true"></i>
-                    </a>
-                </li>
-
-                <li class="icon-logo-envelope">
-                    <a href="mailto:mhdalana211201@gmail.com">
-                        <i class="far fa-envelope" aria-hidden="true"></i>
-                    </a>
-                </li>
-
-                <li class="icon-logo">
-                    <a href="https://soundcloud.com/bryan-kazuro-42337">
-                        <i class="fab fa-soundcloud" aria-hidden="true"></i>
-                    </a>
-                </li>
-
-                <li class="icon-logo">
-                    <a href="https://github.com/bryankazuro04/">
-                        <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
-                </li>
-
-                <li class="icon-logo">
-                    <a href="https://wa.me/+6282119760841/?text=Hi">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </section>
+    <!-- Contact -->
+    <?php include ('partials/bio_contact.php') ?>
 
     <div class="copyright">
         <p>2021, Developed By Bryan Kazuro </p>

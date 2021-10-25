@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
 
   <!-- Link File -->
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="icon" type="image/png" href="favicon_created_by_logaster.ico">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" type="image/png" href="img/icon/favicon_created_by_logaster.ico">
 
   <title>Bryan Kazuro</title>
 
@@ -28,7 +28,7 @@
 
 
   <!-- Navbar -->
-  <?php include("navbar.php") ?>
+  <?php include("partials/navbar.php") ?>
 
   <!-- Content -->
   <section class="welcome">
@@ -68,10 +68,15 @@
     </svg>
   </section>
 
-  <section id="myself" >
-  <svg id="visual" viewBox="0 0 1440 100" width="1440" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><rect x="0" y="0" width="1440" height="100" fill="#403030"></rect><path d="M0 37L20 44.2C40 51.3 80 65.7 120 69.7C160 73.7 200 67.3 240 58C280 48.7 320 36.3 360 32.7C400 29 440 34 480 44.2C520 54.3 560 69.7 600 77.8C640 86 680 87 720 73.3C760 59.7 800 31.3 840 31.8C880 32.3 920 61.7 960 76.2C1000 90.7 1040 90.3 1080 75.7C1120 61 1160 32 1200 28.3C1240 24.7 1280 46.3 1320 46.2C1360 46 1400 24 1420 13L1440 2L1440 0L1420 0C1400 0 1360 0 1320 0C1280 0 1240 0 1200 0C1160 0 1120 0 1080 0C1040 0 1000 0 960 0C920 0 880 0 840 0C800 0 760 0 720 0C680 0 640 0 600 0C560 0 520 0 480 0C440 0 400 0 360 0C320 0 280 0 240 0C200 0 160 0 120 0C80 0 40 0 20 0L0 0Z" fill="#c0b9b9" stroke-linecap="round" stroke-linejoin="miter"></path></svg>
+  <section id="myself">
+    <svg id="visual" viewBox="0 0 1440 100" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+      <rect x="0" y="0" width="1440" height="100" fill="#403030"></rect>
+      <path d="M0 37L20 44.2C40 51.3 80 65.7 120 69.7C160 73.7 200 67.3 240 58C280 48.7 320 36.3 360 32.7C400 29 440 34 480 44.2C520 54.3 560 69.7 600 77.8C640 86 680 87 720 73.3C760 59.7 800 31.3 840 31.8C880 32.3 920 61.7 960 76.2C1000 90.7 1040 90.3 1080 75.7C1120 61 1160 32 1200 28.3C1240 24.7 1280 46.3 1320 46.2C1360 46 1400 24 1420 13L1440 2L1440 0L1420 0C1400 0 1360 0 1320 0C1280 0 1240 0 1200 0C1160 0 1120 0 1080 0C1040 0 1000 0 960 0C920 0 880 0 840 0C800 0 760 0 720 0C680 0 640 0 600 0C560 0 520 0 480 0C440 0 400 0 360 0C320 0 280 0 240 0C200 0 160 0 120 0C80 0 40 0 20 0L0 0Z" fill="#c0b9b9" stroke-linecap="round" stroke-linejoin="miter"></path>
+    </svg>
+
     <div class="container-second">
       <h5>Hello</h5>
+
       <p>Hi. I'm Muhammad Alana Fauzan. I have several nicknames, <u>Bryan Kazuro</u>, <u>Walker</u>, and
         <u>Phantomhive</u>. You can call me <u>Bryan Kazuro</u>, <u>Bryan</u>, <u>Phantom</u>, <u>Alan</u>, or whatever
         you want call me.
@@ -86,7 +91,11 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nisi culpa suscipit ipsam eveniet fuga at a
         modi soluta deleniti, corporis exercitationem fugiat, odio, quam ut. Minima molestiae aspernatur deleniti.</p>
     </div>
-    <svg id="visual" viewBox="0 0 1440 100" width="1440" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><rect x="0" y="0" width="1440" height="100" fill="#403030"></rect><path d="M0 79L120 79L120 53L240 53L240 24L360 24L360 73L480 73L480 39L600 39L600 61L720 61L720 2L840 2L840 27L960 27L960 4L1080 4L1080 10L1200 10L1200 26L1320 26L1320 54L1440 54L1440 47L1440 101L1440 101L1320 101L1320 101L1200 101L1200 101L1080 101L1080 101L960 101L960 101L840 101L840 101L720 101L720 101L600 101L600 101L480 101L480 101L360 101L360 101L240 101L240 101L120 101L120 101L0 101Z" fill="#c0b9b9" stroke-linecap="square" stroke-linejoin="miter"></path></svg>
+
+    <svg id="visual" viewBox="0 0 1440 100" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+      <rect x="0" y="0" width="1440" height="100" fill="#403030"></rect>
+      <path d="M0 79L120 79L120 53L240 53L240 24L360 24L360 73L480 73L480 39L600 39L600 61L720 61L720 2L840 2L840 27L960 27L960 4L1080 4L1080 10L1200 10L1200 26L1320 26L1320 54L1440 54L1440 47L1440 101L1440 101L1320 101L1320 101L1200 101L1200 101L1080 101L1080 101L960 101L960 101L840 101L840 101L720 101L720 101L600 101L600 101L480 101L480 101L360 101L360 101L240 101L240 101L120 101L120 101L0 101Z" fill="#c0b9b9" stroke-linecap="square" stroke-linejoin="miter"></path>
+    </svg>
   </section>
 
   <section id="lorem" class="pt-5">
@@ -139,7 +148,7 @@
     </div>
   </footer>
 
-  <script type="text/javascript" src="custom.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
 </body>
 
 </html>

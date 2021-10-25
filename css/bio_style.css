@@ -10,7 +10,7 @@ body {
   margin-top: 10vh;
   font-family: 'Andada Pro', serif;
   font-size: 20px;
-  background: url(596672.jpg) no-repeat;
+  background: url(../img/596672.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 100vh;
@@ -40,13 +40,6 @@ body {
   padding: 0 !important;
   top: 0;
 }
-
-
-/* .center ul{
-  width: -moz-fit-content;
-  width: -webkit-fit-content;
-  width: fit-content;
-} */
 
 .site-header .navbar {
   width: inherit;
@@ -81,11 +74,6 @@ body {
 .nav-item {
   margin: 7px 30px 0 30px;
 }
-
-
-/* .navbar li a:hover{
-  color: #fff;
-} */
 
 .nav-link {
   color: #000;
@@ -148,15 +136,7 @@ td {
 .contact {
   padding: 10px;
   margin: 5px 30px;
-  /* position: fixed; */
-  /* bottom  : 0; */
 }
-
-
-/* .sosmed-icon{
-  padding-top: 320px;
-  margin-left: 30px;
-} */
 
 .icon {
   align-items: center;
@@ -177,7 +157,7 @@ td {
   text-decoration: none;
 }
 
-.icon .icon-logo-envelope a .far,
+.icon .icon-logo-envelope .far,
 .icon .icon-logo .fab {
   font-size: 2em;
   color: #222;
@@ -210,43 +190,36 @@ td {
 .icon .icon-logo:nth-child(1)::before {
   content: '\f167';
   color: #ff0000;
-  /* border-bottom: 4px solid #ff0000; */
 }
 
 .icon .icon-logo:nth-child(2)::before {
   content: '\f39e';
   color: #285DED;
-  /* border-bottom: 4px solid #285DED; */
 }
 
 .icon .icon-logo:nth-child(3)::before {
   content: '\f16d';
   color: #eb1add;
-  /* border-bottom: 4px solid #eb1add; */
 }
 
 .icon .icon-logo-envelope:nth-child(4)::before {
   content: '\f0e0';
   color: #ED2828;
-  /* border-bottom: 4px solid #ED2828; */
 }
 
 .icon .icon-logo:nth-child(5)::before {
   content: '\f1be';
   color: #fd7200;
-  /* border-bottom: 4px solid #fd7200; */
 }
 
 .icon .icon-logo:nth-child(6)::before {
   content: '\f09b';
   color: #4d4d4d;
-  /* border-bottom: 4px solid #fd7200; */
 }
 
 .icon .icon-logo:nth-child(7)::before {
   content: '\f232';
   color: #25d366;
-  /* border-bottom: 4px solid #fd7200; */
 }
 
 .icon .icon-logo:hover::before {
@@ -263,10 +236,8 @@ td {
 .copyright {
   position: fixed;
   padding: 10px;
-  /* padding-bottom: 0; */
   bottom: 0;
   width: 100%;
-  /* text-align    : center; */
   font-weight: bold;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0.6)));
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 80%);
